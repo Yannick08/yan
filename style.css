@@ -1,0 +1,111 @@
+body{
+	font-family: Open sans;
+}
+
+h1{
+	text-align: center;
+}
+
+#icon{
+	text-align: center;
+}
+
+
+#footer{
+	text-align: center;
+	padding: 1.5em;
+	background-color: rgb(31,31,31);
+	margin-top: 50px;
+}
+
+#footer a{
+	font-size: 30px;
+	color: white;
+}
+
+#footer a:hover{
+	color: #4b8bbc;
+}
+
+
+#header{
+	height: 630px;
+	background-image: url('../images/femme.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	padding-top: 180px;
+	border-bottom: 18px solid #4b8bbc;
+}
+
+#header h1{
+	font-size: 85px;
+	font-weight: bold;
+}
+
+#header h2{
+	font-size: 25px;
+}
+
+#header button{
+	margin-top: 0px;
+}
+
+.contenu{
+	height: 4em;
+}
+
+.qui{
+	text-align: center;
+	background-color: #f6f6f6;
+	width: 100%;
+	padding-bottom: 40px;
+}
+
+.qui p{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.qui h1{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #4b8bbc;
+}
+
+.transparence{
+	color: rgba(24,24,24,0.8);
+}
+
+.activites{
+	padding-bottom: 50px;
+	color: #4b8bbc;
+}
+
+.h4{
+	color: #4b8bbc;
+	font-weight: bold;
+}
+
+.pencil{
+	padding-right: 20px;
+	transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+
+}
+
+.pencil:hover{
+	transform: rotate(10deg) scale(1.1);
+	-webkit-transform: rotate(10deg) scale(1.1);
+	-moz-transform: rotate(10deg) scale(1.1);
+}
+
+.boutton{
+	margin-bottom: 50px;
+}
+
+
+
+
